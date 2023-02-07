@@ -1,17 +1,20 @@
 [tool.poetry]
 name = "chatgpt-test"
 version = "0.1.0"
-description = "chatgpt research"
+description = ""
 authors = ["Xiangshi Yin <piupiuyin@gmail.com>"]
 readme = "README.md"
 packages = [{include = "chatgpt_test"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.12"
+scipy = "^1.10.0"
 openai = "^0.26.4"
 tiktoken = "^0.2.0"
 ipykernel = "^6.21.1"
 python-dotenv = "^0.21.1"
+scikit-learn = "^1.2.1"
+tenacity = "^8.2.0"
 
 
 [build-system]
